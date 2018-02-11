@@ -1,0 +1,120 @@
+#polling1 header{
+	padding: 12px;
+	color: white;
+	background-color: #000000;
+	text-align: center;
+	position: relative;
+	top: 0;
+	border: solid #000000;
+}
+
+#polling1 header img{
+	padding: 12px;
+	position: relative;
+	top: 0;
+	width: 100px;
+    	height: 100px;
+   	border-radius: 50%;
+   	overflow: hidden;
+	float: left;
+}
+
+#polling2{
+	background-color: #6D7993;
+	padding-left: 8%;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+
+#polling2 h2{
+	text-decoration: underline;
+}
+
+#polling2 form h2{
+	text-decoration: underline;
+	font-size: 30px;
+}
+
+#polling2 form label{
+	display: inline-block;
+	width: 200px;
+	text-align: right;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding-right: 15px;
+}
+
+#polling2 form input[type=text], input[type = email]{
+    	width: 70%;
+   	padding: 12px; 
+    	border: 1px solid #ccc;
+    	border-radius: 4px;
+   	margin-top: 6px;
+    	margin-bottom: 16px;
+}
+
+.country{
+	width: 70%;
+	padding: 12px; 
+    	border: 1px solid #ccc;
+    	border-radius: 4px;
+   	margin-top: 6px;
+    	margin-bottom: 16px;
+}
+
+#polling2 form input[type=submit]{
+    	background-color: #A9A9A9;
+    	color: #000000;
+    	padding: 12px 20px;
+    	border: none;
+    	border-radius: 4px;
+    	cursor: pointer;
+	margin-left: 41%;
+}
+
+#polling2 form input[type=submit]:hover{
+ 	background: white;
+	color: #000000;
+}
+
+#polling2 table{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    	border-collapse: collapse;
+    	overflow: scroll;
+    	border: 5px solid black;
+    	width: 75%;
+}
+
+#polling2 table tr th{
+	border: 3px solid black;
+	text-align: center;
+	padding: 6px;
+	width: 25%;
+}
+
+#polling2 table tr td{
+	border: 1px solid black;
+	text-align: center;
+	padding: 6px;
+	width: 25%;
+}
+
+#polling2 table tr th{
+	padding-top: 12px;
+    	padding-bottom: 12px;
+    	background-color: #000000;
+    	color: white;
+}
+		
+
+#polling3{
+	color: white;
+	background-color: #000000;
+	text-align: center;
+	position: relative;
+	border: solid #000000;
+}
+
+#polling3 footer ul{
+	list-style-type: none;
+}

@@ -1,0 +1,76 @@
+#fixture1 header{
+	padding: 12px;
+	color: white;
+	background-color: #000000;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border: solid #000000;
+}
+
+#fixture1 header img{
+	padding: 12px;
+	position: relative;
+	top: 0;
+	width: 100px;
+    	height: 100px;
+   	border-radius: 50%;
+   	overflow: hidden;
+	float: left;
+}
+
+.fixture2{
+	background-color: #6D7993;
+	margin-top: 12%;
+	margin-right: 2pt;
+	min-width: 96%;
+	min-height: 51%;
+	padding-left: 2%;
+	padding-top: 3%;
+	padding-right: 2%;
+	padding-bottom: 3%;
+}
+
+.fixture2 table{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    	border-collapse: collapse;
+    	overflow: scroll;
+    	border: 5px solid black;
+    	width: 50%;
+}
+
+.fixture2 table tr th{
+	border: 3px solid black;
+	text-align: center;
+	padding: 6px;
+}
+
+.fixture2 table tr td{
+	border: 1px solid black;
+	text-align: center;
+	padding: 6px;
+}
+
+.fixture2 table tr th{
+	padding-top: 12px;
+    	padding-bottom: 12px;
+    	background-color: #000000;
+    	color: white;
+}
+
+#fixture3{
+	color: white;
+	background-color: #000000;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border: solid #000000;
+}
+
+#fixture3 footer ul{
+	list-style-type: none;
+}

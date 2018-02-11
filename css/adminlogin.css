@@ -1,0 +1,126 @@
+#adminlogin1 header{
+	padding: 12px;
+	color: white;
+	background-color: #000000;
+	text-align: center;
+	position: relative;
+	top: 0;
+	border: solid #000000;
+}
+
+#adminlogin1 header img{
+	padding: 12px;
+	position: relative;
+	top: 0;
+	width: 100px;
+    	height: 100px;
+   	border-radius: 50%;
+   	overflow: hidden;
+	float: left;
+}
+
+#adminlogin2{
+	background-color: #6D7993;
+	height: 510px;
+}
+
+#adminlogin2 div{
+	position: relative;
+	left: 50%;
+	width: 350px;
+	transform: translate(-50%,30%);
+	padding: 60px 50px 20px 50px;
+	box-sizing: border-box;
+	height: 350px;
+	background: rgba(0,0,0,.3);
+	border-radius: 10%;
+}
+
+#adminlogin2 div img
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+
+#adminlogin2 div h2{
+	margin: 0;
+	padding: 0 0 10px;
+	color: black;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+#adminlogin2 div form p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #000;
+	font-family: sans-serif;
+}
+
+#adminlogin2 div form input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#adminlogin2 div form input[type="text"],
+#adminlogin2 div form input[type="Password"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	outline: none;
+	height: 35px;
+	background: transparent;
+	color: #fff;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+::placeholder
+{
+	color: rgba(255,255,255,.5);
+}
+
+#adminlogin2 div form input[type="submit"]
+{
+	border: bold #000000;
+	outline: none;
+	height: 40px;
+	color: #000000;
+	font-size: 16px;
+	background: #A9A9A9;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+#adminlogin2 div form input[type="submit"]:hover
+{
+	background: white;
+	color: #000000;
+}
+
+#a100
+{
+	color: black;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#adminlogin3{
+	color: white;
+	background-color: #000000;
+	text-align: center;
+	position: relative;
+	border: solid #000000;
+}
+
+#adminlogin3 footer ul{
+	list-style-type: none;
+}

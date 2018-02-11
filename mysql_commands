@@ -1,0 +1,35 @@
+create database football;
+
+use football;
+
+create table adminlogin(username varchar(20), password varchar(20));
+
+insert into adminlogin values('admin', 'admin');
+
+create table player(player_id int(5) primary key NOT NULL AUTO_INCREMENT, first_name varchar(50), last_name varchar(50), age int(3), country varchar(75), physical int(1), mental int(1), speed int(1), attacking int(1), defending int(1), technical int(1), suggestions varchar(150));
+
+create table playerlogin(username varchar(20) primary key NOT NULL, password varchar(20), player_id int(5), foreign key(player_id) references player(player_id));
+
+create table fixtures(opponent_name varchar(50), fixture_date date primary key NOT NULL);
+
+create table pollregister(email varchar(75) primary key NOT NULL, first_name varchar(50), last_name varchar(50), country varchar(75));
+
+create table bestplayer(player1 int(5), player2 int(5), player3 int(5));
+
+create table bestforward(forward1 int(5), forward2 int(5), forward3 int(5));
+
+create table bestdefender(defender1 int(5), defender2 int(5), defender3 int(5));
+
+create table bestmidfielder(midfielder1 int(5), midfielder2 int(5), midfielder3 int(5));
+
+create table bestkeeper(keeper1 int(5), keeper2 int(5), keeper3 int(5));
+
+insert into bestplayer values(0, 0, 0);
+
+insert into bestforward values(0, 0, 0);
+
+insert into bestdefender values(0, 0, 0);
+
+insert into bestmidfielder values(0, 0, 0);
+
+insert into bestkeeper values(0, 0, 0);
